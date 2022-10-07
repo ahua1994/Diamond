@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diamond</title>
+    <style>
+        body {
+            font-size: 2rem;
+            background-color: #333;
+            color: white;
+        }
+
+        #output {
+            width: 90vw;
+            height: 160vh;
+            border: 2px solid white;
+        }
+
+        input[type="number"] {
+            font-size: 1.5rem;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="">
+        <label for="width">Enter Diamond Size: </label>
+        <input id="input" type="number" min="0" max="20" id="width" value="0">
+    </form>
+    <p>Result: </p>
+    <div id="output"></div>
+    <script src="./Diamond.js"></script>
+</body>
+
+</html>
